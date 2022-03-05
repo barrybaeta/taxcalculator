@@ -11,7 +11,7 @@ function Result({salary, selected}) {
       {countryList.map((item) => {                                   
         return(
           <Fragment key={`resultWrapper_${item.id}`}>
-            {item.countries.country.filter(country => country.id === selected).map((filteredCountry, i) => {
+            {item.countries.country.filter(country => country.id == selected).map((filteredCountry, i) => {
               return(
                 <div className="results-containter" key={`result_${i}`}>
                   <Contributions contributions={filteredCountry.employerContribution} salary={salary} type="employer"></Contributions>
