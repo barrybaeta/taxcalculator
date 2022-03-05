@@ -1,0 +1,133 @@
+[
+  {
+    "countries": {
+      "country": [
+        {
+          "id": 1,
+          "name": "Country A",
+          "employerContribution": [
+            {
+              "name": "Health Insurance",
+              "type": "percentage",
+              "value": 10.00 
+            },
+            {
+              "name": "Social Security",
+              "type": "percentage",
+              "value": 5.00 
+            },
+            {
+              "name": "Payroll Tax",
+              "type": "progressive",
+              "value": [
+                {
+                  "bracketStart": 0,
+                  "bracketEnd": 50000,
+                  "percentage": 10.00
+                },
+                {
+                  "bracketStart": 50001,
+                  "bracketEnd": "n/a",
+                  "percentage": 30.00
+                }
+              ]
+            }
+          ],
+          "employeeContribution": [
+            {
+              "name": "Social Security",
+              "type": "percentage",
+              "value": 20.00 
+            },
+            {
+              "name": "Income Tax",
+              "type": "progressive",
+              "value": [
+                {
+                  "bracketStart": 0,
+                  "bracketEnd": 25000,
+                  "percentage": 20.00
+                },
+                {
+                  "bracketStart": 25001,
+                  "bracketEnd": "n/a",
+                  "percentage": 40.00
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Country B",
+          "employerContribution": [
+            {
+              "name": "Health Insurance",
+              "type": "percentage",
+              "value": 21.50 
+            },
+            {
+              "name": "Social Security",
+              "type": "percentage",
+              "value": 1.20 
+            },
+            {
+              "name": "Payroll Tax",
+              "type": "progressive",
+              "value": [
+                {
+                  "bracketStart": 0,
+                  "bracketEnd": 10000,
+                  "percentage": 5.00
+                },
+                {
+                  "bracketStart": 10001,
+                  "bracketEnd": 22000,
+                  "percentage": 8.00
+                },
+                {
+                  "bracketStart": 22001,
+                  "bracketEnd": 60000,
+                  "percentage": 12.00
+                },
+                {
+                  "bracketStart": 60001,
+                  "bracketEnd": "n/a",
+                  "percentage": 15.00
+                }
+              ]
+            }
+          ],
+          "employeeContribution": [
+            {
+              "name": "Social Security",
+              "type": "percentage",
+              "value": 6.50 
+            },
+            {
+              "name": "Income Tax",
+              "type": "progressive",
+              "value": [
+                {
+                  "bracketStart": 0,
+                  "bracketEnd": 25000,
+                  "percentage": 5.00
+                },
+                {
+                  "bracketStart": 0,
+                  "bracketEnd": 25001,
+                  "percentage": 13.00
+                },
+                {
+                  "bracketStart": 75001,
+                  "bracketEnd": "n/a",
+                  "percentage": 25.00
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

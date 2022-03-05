@@ -1,0 +1,26 @@
+.results {
+  background-color: $grey;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid $black;
+  margin: 1rem 0rem;
+
+  > .results-containter {
+    display: flex;
+
+    > .result-wrapper {
+      flex: 1;
+
+      .result {
+        .label {
+          font-size: 0.75rem;
+          margin: 0;
+        }
+
+        p {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

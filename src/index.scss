@@ -1,0 +1,28 @@
+@import "./assets/styles/base/colours";
+@import "./assets/styles/base/typography";
+
+@import "./assets/styles/card/card";
+@import "./assets/styles/forms/forms";
+@import "./assets/styles/results/results";
+
+html {
+  font-size: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  html { font-size: 125%; }
+}
+
+body {
+  font-weight: 300;
+  font-family: $work-sans;
+  background-color: $white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
