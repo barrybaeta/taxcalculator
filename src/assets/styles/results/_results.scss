@@ -7,9 +7,20 @@
 
   > .results-containter {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    h4 {
+      text-transform: capitalize;
+      margin-top: 0
+    }
 
     > .result-wrapper {
       flex: 1;
+      min-height: 100%;
+      align-items: stretch;
+      display: flex!important;
+      flex-direction: column;
 
       .result {
         .label {
@@ -20,6 +31,10 @@
         p {
           margin-top: 0;
         }
+      }
+
+      .total {
+        margin-top: auto;
       }
     }
   }

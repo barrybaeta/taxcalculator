@@ -26,7 +26,7 @@
                   "percentage": 10.00
                 },
                 {
-                  "bracketStart": 50001,
+                  "bracketStart": 50000,
                   "bracketEnd": "n/a",
                   "percentage": 30.00
                 }
@@ -49,7 +49,7 @@
                   "percentage": 20.00
                 },
                 {
-                  "bracketStart": 25001,
+                  "bracketStart": 25000,
                   "bracketEnd": "n/a",
                   "percentage": 40.00
                 }
@@ -81,17 +81,17 @@
                   "percentage": 5.00
                 },
                 {
-                  "bracketStart": 10001,
+                  "bracketStart": 10000,
                   "bracketEnd": 22000,
                   "percentage": 8.00
                 },
                 {
-                  "bracketStart": 22001,
+                  "bracketStart": 22000,
                   "bracketEnd": 60000,
                   "percentage": 12.00
                 },
                 {
-                  "bracketStart": 60001,
+                  "bracketStart": 60000,
                   "bracketEnd": "n/a",
                   "percentage": 15.00
                 }
@@ -114,12 +114,12 @@
                   "percentage": 5.00
                 },
                 {
-                  "bracketStart": 0,
-                  "bracketEnd": 25001,
+                  "bracketStart": 25000,
+                  "bracketEnd": 75000,
                   "percentage": 13.00
                 },
                 {
-                  "bracketStart": 75001,
+                  "bracketStart": 75000,
                   "bracketEnd": "n/a",
                   "percentage": 25.00
                 }
